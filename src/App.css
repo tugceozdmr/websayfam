@@ -1,6 +1,8 @@
 .App {
-  /* text-align: center; */
+  width: 1140px;
+  margin: auto;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,9 +42,7 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 87px;
-  margin-right: 173.54px;
-  gap: 82.16px;
-
+  gap: 82px;
 }
 .title1 {
   background-color: white;
@@ -143,7 +143,7 @@
   font-size: medium;
   align-items: center;
   display: flex;
-  text-decoration:none;
+  text-decoration: none;
   border-radius: 5px;
   font-weight: bolder;
 }
@@ -159,50 +159,13 @@
   cursor: pointer;
   width: 120px;
   height: 45px;
-  font-size:medium;
+  font-size: medium;
   border-radius: 5px;
   font-weight: bolder;
 }
 .bt3:hover {
   background-color: #dc0c71;
   color: white;
-}
-
-.photo {
-  height: 225px;
-  border-radius: 10px;
-  margin-top: 7px;
-  border: 3px #dc0c71 solid;
-}
-
-.skl {
-  display: flex;
-  margin-top: 20px;
-  margin-right: 173.54px;
-  margin-left: 125px;
-  height: 200px;
-  color: black;
-  text-align: justify;
-  font-size: small;
-  font-family: papyrus;
-  justify-content: flex-start;
-  font-weight: bolder;
-  color: black;
-  /* border: 3px #dc0c71 solid; */
-}
-
-.skl2 {
-  text-decoration: underline;
-  margin-top: 50px;
-  display: flex;
-  gap: 63px;
-  color: #dc0c71;
-  font-size: medium;
-  font-weight: bolder;
-  align-content: flex-start;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  font-family: "Times New Roman";
 }
 
 .prf {
@@ -216,8 +179,6 @@
   font-size: small;
   font-weight: bolder;
   gap: 600x;
-  
-  
 }
 
 .prf2 {
@@ -262,31 +223,29 @@
   margin-right: 173.54px;
   margin-left: 125px;
   height: 270px;
-  font-family:papyrus;
+  font-family: papyrus;
   font-weight: bolder;
   font-size: larger;
   background-color: #fafafa;
   align-items: center;
-  justify-content:space-between
+  justify-content: space-between;
 }
-
-
 
 .foot {
-  color:#dc0c71;
+  color: #dc0c71;
 }
 
-
-.btnicon {
-  width: 18px;
-  margin-right: 6px;
-}
-
-.iconhand{
+.iconhand {
   width: 30px;
   /* margin-right: 6px; */
   margin-left: 6px;
   margin-top: 10px;
   /* display: flex; */
   gap: 20px;
+}
+
+.separator {
+  background-color: #bab2e7;
+  height: 1px;
+  margin: 24px 8px;
 }

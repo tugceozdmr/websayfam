@@ -3,57 +3,56 @@ import Picture2 from "../img/Picture2.jpg";
 import githublogo from "../img/github-icon.svg";
 import linkedinlogo from "../img/linkedin-icon.svg";
 import mail from "../img/mail.svg";
-
-const handleClick=()=>{
-  window.scrollTo(200,1200)
-}
-
+import "./hero.css";
 
 export default function Hero() {
   return (
-    <div className="hr">
-      <h1>  Creative Thinker <br /> <br />
-      
-        Hi, I am Tuğçe. I graduated from Uludag University as an engineer. I'm
-        interested in being a developer, it's my passion. If you are looking for
-        a developer who to craft solid and scalable frontend products with great
-        user experiences. Let’s shake hands with me.
-        <br />{" "}
-        <div className="button2">
-       
-          
-          <button onClick={handleClick} className="bt1"><img src={mail} alt="" className="btnicon" /> Hire Me </button>
-          
+    <div className="hero">
+      <div className="hero-detail">
+        <div className="hero-dashed-name">
+          <span className="header-dash" />
+          Tuğçe Özdemir
+        </div>
+        <h1> Creative Thinker </h1>
+        <div className="subtext">
+          Hi, I am Tuğçe. I graduated from Uludag University as an engineer. I'm
+          interested in being a developer, it's my passion. If you are looking
+          for a developer who to craft solid and scalable frontend products with
+          great user experiences. Let’s shake hands with me.{" "}
+        </div>
+        <div className="link-container">
+          <a
+            href="mailto:tugceozdemiir@hotmail.com"
+            rel="noreferrer"
+            className="link"
+          >
+            <img src={mail} alt="" className="btnicon" />
+            Hire Me
+          </a>
 
           <a
-            style={{ textDecoration: "none" }}
             href="https://github.com/tugceozdmr?tab=repositories"
             target="_blank"
             rel="noreferrer"
+            className="link"
           >
-          
-            <button className="bt2">
-             
-                <img src={githublogo} alt="" className="btnicon" />
-           
-              Github
-            </button>
+            <img src={githublogo} alt="" className="btnicon" />
+            Github
           </a>
 
           <a
             href="https://www.linkedin.com/in/tugceeozdemir/"
             target="_blank"
             rel="noreferrer"
+            className="link"
           >
-            <button className="bt3">
             <img src={linkedinlogo} alt="" className="btnicon" />
-            Linkedin 
-            </button>
+            Linkedin
           </a>
         </div>
-      </h1>
+      </div>
 
-      <img src={Picture2} alt="" className="photo" />
+      <img src={Picture2} alt="" className="hero-photo" />
     </div>
   );
 }

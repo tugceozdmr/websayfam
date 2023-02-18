@@ -1,20 +1,17 @@
 import React from "react";
-
+import "./skills.css";
 
 export default function Skills() {
   return (
-    <div className="skl">
-      
-      <h2>
-        Skills
-        <div className="skl2">
-          <p>Html</p>
-          <p>Css</p>
-          <p>JavaScript</p>
-          <p>React</p>
-          <p>Node.Js</p>
-        </div>
-      </h2>
+    <div className="skills">
+      <h2>Skills</h2>
+      <div className="skills-item-container">
+        <span>Html</span>
+        <span>Css</span>
+        <span>JavaScrispant</span>
+        <span>React</span>
+        <span>Node.Js</span>
+      </div>
     </div>
   );
 }

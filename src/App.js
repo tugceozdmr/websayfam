@@ -1,4 +1,5 @@
 import "./App.css";
+import "./global.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
@@ -13,15 +14,13 @@ function App() {
     <div className="App">
       {/* <Router> */}
       <Header />
-
       <Hero />
-
       <Skills />
-
+      <div className="separator" />
       <Profile />
+      <div className="separator" />
       <Projects />
       <Footer />
-
       {/* <Link to="/form">Form</Link> */}
       {/* <Route path="/form" component={Form} />
      

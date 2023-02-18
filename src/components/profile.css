@@ -1,0 +1,28 @@
+.profile {
+}
+
+.profile-content {
+  display: flex;
+  gap: 50px;
+}
+
+.profile h3 {
+  font-size: 30px;
+  color: #3730a3;
+}
+
+.aboutme {
+  margin-right: 10%;
+}
+
+.aboutme-content {
+  color: #6b7280;
+}
+
+.profile table td {
+  padding-right: 80px;
+  white-space: nowrap;
+}
+.profile table td:first-child {
+  font-weight: 600;
+}
