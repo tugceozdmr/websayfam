@@ -13,10 +13,11 @@ export default function Hero() {
           <span className="header-dash" />
           Tuğçe Özdemir
         </div>
-        <h1> Creative Thinker </h1>
+        <h1> Creative Thinker  Minimalism Lover </h1>
+     
+
         <div className="subtext">
-          Hi, I am Tuğçe. I graduated from Uludag University as an engineer. I'm
-          interested in being a developer, it's my passion. If you are looking
+          Hi, I am Tuğçe. I graduated from Uludag University as an engineer. If you are looking
           for a developer who to craft solid and scalable frontend products with
           great user experiences. Let’s shake hands with me.{" "}
         </div>

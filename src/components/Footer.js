@@ -17,7 +17,6 @@ export default function Footer() {
       <a className="foot" href="mailto:tugceozdemiir@hotmail.com">
         tugceozdemiir@hotmail.com{" "}
       </a>
-      <button onClick={HandleClick}className="foot2">Contact With Me  </button>
     </div>
   );
 }

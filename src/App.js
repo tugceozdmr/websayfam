@@ -20,6 +20,7 @@ function App() {
       <Profile />
       <div className="separator" />
       <Projects />
+    
       <Footer />
       {/* <Link to="/form">Form</Link> */}
       {/* <Route path="/form" component={Form} />

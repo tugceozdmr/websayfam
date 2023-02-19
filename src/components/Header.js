@@ -1,13 +1,14 @@
 import React from "react";
+import  "./header.css";
 
 const handleClick=()=>{
-    window.scrollTo(0,300)
+    window.scrollTo(0,600)
 }
 const handleClick2=()=>{
-    window.scrollTo(0,1000)
+    window.scrollTo(0,1650)
 }
 const handleClick3=()=>{
-    window.scrollTo(0,10)
+    window.scrollTo(0,2200)
 }
 
 

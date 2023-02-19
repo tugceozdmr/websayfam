@@ -32,13 +32,14 @@ export default function Profile() {
           <div className="aboutme-content">
             <div>
               I am studying at WorkinTech in order to use my analytical skills
-              and work in the software industry, which is my field of interest.
+              and work in the software industry, which is my field of interest. I have actively completed  
+                 projects during my education process.
             </div>
             <div>
-              I have actively completed projects during my education process.
+         You can visit my GitHub pageto see which projects 
             </div>
             <div>
-              You can visit my GitHub page to see which projects I have
+               I have
               completed.
             </div>
           </div>

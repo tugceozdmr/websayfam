@@ -1,0 +1,52 @@
+.title {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 87px;
+    gap: 82px;
+  }
+  .title1 {
+    background-color: white;
+    color: #3730a3;
+    border: 1px solid #3730a3;
+    font-size: larger;
+    width: 110px;
+    height: 47px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .title1:hover {
+    background-color: #3730a3;
+    color: white;
+  }
+  
+  .title2 {
+    background-color: white;
+    color:#3730a3;
+    width: 110px;
+    height: 47px;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #3730a3;
+  }
+  
+  .title2:hover {
+    background-color: #3730a3;
+    color: white;
+  }
+  
+  .title3 {
+    background-color: white;
+    color:#3730a3;
+    width: 110px;
+    height: 47px;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #3730a3;
+  }
+  .title3:hover {
+    background-color:  #3730a3;
+    color: white;
+  }

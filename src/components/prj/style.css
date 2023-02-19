@@ -1,72 +1,71 @@
 .prj {
-  display: flex;
-  flex-direction: column;
-  border-top: 0.05px #dc0c71 solid;
-  /* margin-top:10px; */
-  margin-right: 173.54px;
-  margin-left: 125px;
-  height: 575px;
-  font-family: papyrus;
-  font-size: medium;
-  font-weight: bolder;
+  font-size: 48px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 10px 0;
+  margin-bottom: 30px;
 }
 
 .photo2 {
-  height: 180px;
-  margin-right: 30px;
+  margin-top: 20px;
+  height: 210px;
   margin-top: 40px;
-  width: 235px;
-  border: 0.5px #dc0c71 solid;
-  margin-right: 171.2px;
-  font-family: papyrus;
+  width: 300px;
+  font-family: "Inter", sans-serif;
   
 }
 
 .photo3 {
-  height: 180px;
-  margin-right: 30px;
+  height: 210px;
   margin-top: 40px;
-  width: 235px;
-  border: 0.5px #dc0c71 solid;
+  width: 300px;
   margin-right: 171.3px;
-  font-family: papyrus;
+  font-family: "Inter", sans-serif;
 }
 .photo4 {
-  height: 180px;
-  margin-right: 10px;
+  height: 210px;
   margin-top: 40px;
-  width: 235px;
-  border: 0.5px #dc0c71 solid;
-  font-family: papyrus;
+  width: 300px;
+  font-family: "Inter", sans-serif;
 }
 
 .prjcont {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+ gap:115px;
+  width: 1140px;
 }
 
 .imgcont {
-  width: 235px;
+  width: 300px;
   font-size: medium;
-  word-break: break-all;
-  font-family:papyrus;}
+  font-family: "Inter", sans-serif;
+  color: #6b7280;
+ 
+}
+ .h3{
+  color:#3730a3;
+ }
+
+
 .butonC {
   margin-top: 50px;
   display: flex;
   gap: 20px;
 height:25px;
+color:#3730a3;
+border-color:#3730a3; ;
 }
 .butonC1 {
   margin-top: 75px;
   display: flex;
   gap: 20px;
   height:25px;
-
+  color:#3730a3;
 }
 .butonC2 {
   margin-top: 75px;
   display: flex;
-  gap: 20px;
+  gap: 10px;
   height:25px;
+  color:#3730a3;
 }

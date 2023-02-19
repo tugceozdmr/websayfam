@@ -1,11 +1,12 @@
 .hero {
   display: flex;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 120px;
 }
 
 .hero-detail .subtext {
   color: #6b7280;
+  font-size: 20px;
 }
 
 .hero-photo {
