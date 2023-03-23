@@ -38,38 +38,9 @@
   }
 }
 
-
-.footer {
-  display: flex;
-  border: 0.25px #fafafa solid;
-  height: 300px;
-  font-family: "Inter", sans-serif;
-  font-weight: bolder;
-  font-size: larger;
-  background-color: #F9F9F9;
-  align-items: center;
-  justify-content: space-between;
-  width: 1140px;
-  margin-top: 130px;
-}
-
-.foot {
-  color: #dc0c71;
-}
-
-.iconhand {
-  width: 30px;
-  /* margin-right: 6px; */
-  margin-left: 6px;
-  margin-top: 10px;
-  /* display: flex; */
-  gap: 20px;
-}
-
 .separator {
   background-color: #bab2e7;
   height: 1px;
-  margin: 24px 8px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin: 60px 8px;
+
 }

@@ -36,7 +36,7 @@ I received training in the workintech program, which brings together young peopl
           <img src={Proj} alt="" className="photo3" />
           <div clasName="paragraf2">
           <h3 > Location</h3>
- This is a sample project. You can browse the project details by<br></br> clicking the button.</div>
+ This is a sample project. You can browse the project details by clicking the button.</div>
           <div className="butonC1">
             <button>React</button>
             <button>Redux</button>
@@ -56,7 +56,7 @@ I received training in the workintech program, which brings together young peopl
         <div className="imgcont">
           <img src={Proj2} alt="" className="photo4" />
           <h3>Order Pizza</h3>
-          <div clasName="paragraf3">In this project, I prepared a pizza <br></br>order form. You can visit my github <br></br>page to view the project details.</div>
+          <div clasName="paragraf3">In this project, I prepared a pizza order form. You can visit my github page to view the project details.</div>
           <div className="butonC2">
             <button>React</button>
             <button>Redux</button>

@@ -5,7 +5,7 @@
 .profile-content {
   display: flex;
   gap: 50px;
-
+  font-size: 20px;
 }
 
 .profile h3 {
@@ -20,6 +20,7 @@
 
 .aboutme-content {
   color: #6b7280;
+  text-align:justify;
   
 }
 

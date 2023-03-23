@@ -1,8 +1,8 @@
 import React from "react";
-import Picture2 from "../img/Picture2.jpg";
-import githublogo from "../img/github-icon.svg";
-import linkedinlogo from "../img/linkedin-icon.svg";
-import mail from "../img/mail.svg";
+import Picture2 from "../../img/Picture2.jpg";
+import githublogo from "../../img/github-icon.svg";
+import linkedinlogo from "../../img/linkedin-icon.svg";
+import mail from "../../img/mail.svg";
 import "./hero.css";
 
 export default function Hero() {
@@ -13,6 +13,7 @@ export default function Hero() {
           <span className="header-dash" />
           Tuğçe Özdemir
         </div>
+
         <h1> Creative Thinker  Minimalism Lover </h1>
      
 
@@ -28,7 +29,7 @@ export default function Hero() {
             className="link"
           >
             <img src={mail} alt="" className="btnicon" />
-            Hire Me
+            Mail Me
           </a>
 
           <a

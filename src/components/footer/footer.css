@@ -1,0 +1,22 @@
+
+.footer {
+    display: flex;
+    border: 0.25px #fafafa solid;
+    height: 300px;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #F9F9F9;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+    margin-top: 130px;
+  }
+  
+  .foot {
+    color: #dc0c71;
+  }
+
+  .iconhand{
+    width: 45px;
+  }

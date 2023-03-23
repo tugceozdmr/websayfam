@@ -1,6 +1,7 @@
 import React from "react";
-import handlogo from "../img/hand-icon.svg";
+import handlogo from "../../img/hand-icon.svg"
 import { useHistory } from "react-router-dom";
+import "./footer.css";
 
 
 const HandleClick=()=>{
